@@ -5,9 +5,10 @@ body {
 }
 
 .container {
-  margin: 55px auto;
+  margin: 35px auto;
   max-width: 600px;
   background-color: rgb(231, 189, 241);
+  border-radius: 5px;
 }
 
 .poem-color {
@@ -16,11 +17,22 @@ body {
   padding: 20px;
   max-width: 400px;
   background-color: whitesmoke;
+  border-radius: 5px;
 }
 
 .paragraph {
   margin-bottom: 25px;
   text-align: center;
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+.input-section {
+  padding: 12px;
+  width: 40%;
+}
+
+.submit-button {
+  padding: 12px;
 }
 h1 {
   padding-top: 20px;
@@ -32,12 +44,13 @@ h1 {
 
 form {
   text-align: center;
-  padding: 30px;
+  padding: 18px;
 }
 
 footer {
   text-align: center;
-  padding-bottom: 25px;
+  font-family: "Hind Siliguri", sans-serif;
+  padding-bottom: 20px;
   margin: 10px auto;
   max-width: 600px;
 }

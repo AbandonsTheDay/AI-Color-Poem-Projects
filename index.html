@@ -6,22 +6,14 @@
     <title>Color Poems by AI</title>
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
   </head>
   <body>
     <div class="container">
       <h1><header>Color Poem Generator</header></h1>
       <main>
         <br />
-        <div class="poem-space" id="poem">
-          I love color.
-          <div>I love flaming reds,</div>
-          <div>And vivid greens,</div>
-          <div>And royal flaunting purples.</div>
-          <div>I love the startled rose of the sun at dawning,</div>
-          <div>And the blazing orange of it at twilight.</div>
-          <br />
-          <i>by Margaret E. Sangster</i>
-        </div>
+        <div class="poem-space" id="poem"></div>
       </main>
       <form id="poem-gen-form">
         <p class="instruction" id="instruction">
@@ -34,6 +26,7 @@
           required
           autocomplete="off"
           class="input-section"
+          id="submission"
         />
         <input type="submit" value="Submit" class="submit-button" />
       </form>

@@ -1,3 +1,43 @@
-header {
-  color: teal;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap");
+body {
+  background-color: rgb(215, 155, 224);
+}
+
+.container {
+  margin: 55px auto;
+  max-width: 600px;
+  background-color: rgb(231, 189, 241);
+}
+
+.poem-color {
+  font-family: "Hind Siliguri", sans-serif;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 400px;
+  background-color: whitesmoke;
+}
+
+.paragraph {
+  margin-bottom: 25px;
+  text-align: center;
+}
+h1 {
+  padding-top: 20px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: whitesmoke;
+  font-size: 46px;
+}
+
+form {
+  text-align: center;
+  padding: 30px;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 25px;
+  margin: 10px auto;
+  max-width: 600px;
 }

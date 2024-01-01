@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Color Poems by AI</title>
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
   <body>
     <div class="container">
       <h1><header>Color Poem Generator</header></h1>
       <main>
         <br />
-        <div class="poem-color" id="poem">
+        <div class="poem-space" id="poem">
           I love color.
           <div>I love flaming reds,</div>
           <div>And vivid greens,</div>
@@ -22,8 +23,8 @@
           <i>by Margaret E. Sangster</i>
         </div>
       </main>
-      <form>
-        <p class="paragraph">
+      <form id="poem-gen-form">
+        <p class="instruction" id="instruction">
           Enter a color in the box below to generate a color poem.
         </p>
         <input

@@ -11,7 +11,7 @@ body {
   border-radius: 5px;
 }
 
-.poem-color {
+.poem-space {
   font-family: "Hind Siliguri", sans-serif;
   margin: 20px auto;
   padding: 20px;
@@ -20,7 +20,7 @@ body {
   border-radius: 5px;
 }
 
-.paragraph {
+.instruction {
   margin-bottom: 25px;
   text-align: center;
   font-family: "Hind Siliguri", sans-serif;
@@ -29,7 +29,7 @@ body {
 .input-section {
   padding: 12px;
   width: 40%;
-  border: 1px solid rgba(39, 33, 66, 0.5);
+  border: 1px solid darkred;
   font-family: "Poppins", sans-serif;
 }
 

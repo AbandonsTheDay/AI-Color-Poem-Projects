@@ -20,10 +20,15 @@ body {
   border-radius: 5px;
 }
 
+.hidden {
+  display: none;
+}
+
 .instruction {
   margin-bottom: 25px;
   text-align: center;
   font-family: "Hind Siliguri", sans-serif;
+  font-size: 12px;
 }
 
 .input-section {
